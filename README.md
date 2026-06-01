@@ -3,7 +3,7 @@
  | | | || ____||_   _||  \/  ||  _ \  / ___|| ____||_   _||  \/  || ____| 
  | | | ||  _|    | |  | |\/| || | | || |    |  _|    | |  | |\/| ||  _|   
  | |_| || |___   | |  | |  | || |_| || |___ | |___   | |  | |  | || |___  
-  \___/ |_____|  |_|  |_|  |_||____/  \____||_____|  |_|  |_|  |_||_____| 
+  \___/ |_____|  |_|  |_|  |_||____/  \____||_____|  |_|  |_|| |_____| 
                                                                           
   ██████╗ ██╗   ██╗██████╗ ███████╗██████╗ 
   ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗
@@ -20,37 +20,76 @@ class Ntokozo:
     def __init__(self):
         self.location = "Africa/Johannesburg 🇿🇦"
         self.mission = ["AI Automation", "Cybersecurity", "Trading Tech"]
-        self.stack = ["Spring Boot", "React", "WebSocket", "Redis"]
         self.philosophy = "Working code > Explanations"
     
     def build(self):
-        return "Nomad GPS Tracker 🛰️"
-    
-    def hack(self):
-        return "Learning security through practice 🔐"
+        return ["Nomad", "IbuthoAGI", "AI Hedge Fund"]
 ```
 
 ---
 
-## 🛠️ CURRENT OPERATIONS
+## 🛠️ FEATURED PROJECTS
 
+### 🛰️ [Nomad](https://github.com/TheG1024/Nomad) - Real-Time GPS Tracking
 ```
-┌─────────────────────────────────────────────────────────────┐
-│  NOMAD GPS TRACKER                          [DEPLOYED] ✅   │
-├─────────────────────────────────────────────────────────────┤
-│  Real-time vehicle tracking + community alerts              │
-│                                                             │
-│  [Spring Boot] → [WebSocket] → [React + Leaflet]           │
-│       ↓                    ↓                                │
-│  [PostgreSQL]        [Redis Pub/Sub]                       │
-│                                                             │
-│  → Live GPS tracking with driver avatars                   │
-│  → User-reported police alerts with upvotes                │
-│  → Community-powered road safety                           │
-│                                                             │
-│  Demo: curl https://nomad-gps-tracker.onrender.com/api/health
-└─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│ Spring Boot + WebSocket + Redis                         │
+│                                                         │
+│ [Device] → WebSocket → [Auth] → [Processor] → Redis    │
+│                                      ↓                  │
+│                              [REST API] → CSV Export    │
+│                                                         │
+│ ✅ Real-time GPS streaming                              │
+│ ✅ 7-day Redis cache                                    │
+│ ✅ WebSocket authentication                             │
+│ ✅ Scheduled CSV exports                                │
+└─────────────────────────────────────────────────────────┘
+📦 2.1MB | 🍴 Spring Boot, Redis, WebSocket
 ```
+
+### 🤖 [IbuthoAGI](https://github.com/TheG1024/IbuthoAGI) - Multi-Agent AI Framework
+```
+┌─────────────────────────────────────────────────────────┐
+│ Advanced Multi-Agent Problem Solving System            │
+│                                                         │
+│  ┌──────────────┐                                      │
+│  │ Coordinator  │ → Orchestrates workflows             │
+│  └──────────────┘                                      │
+│         ↓                                               │
+│  ┌──────────────────────────────────────────┐          │
+│  │ Researcher → Planner → Executor → Critic │          │
+│  └──────────────────────────────────────────┘          │
+│         ↓                                               │
+│  ┌──────────────┐                                      │
+│  │ Innovator    │ → Creative solutions                 │
+│  └──────────────┘                                      │
+└─────────────────────────────────────────────────────────┘
+📦 124KB | 🍴 Multi-agent orchestration, systematic problem-solving
+```
+
+### 📈 [AI Hedge Fund](https://github.com/TheG1024/ai-hedge-fund) - Trading AI
+```
+┌─────────────────────────────────────────────────────────┐
+│ AI-Powered Trading Decision System (Educational)       │
+│                                                         │
+│  ┌─────────────────────────────────────────┐           │
+│  │  Market Data Analyst → Sentiment Agent  │           │
+│  │  Fundamentals Agent → Technical Analyst │           │
+│  │  Risk Manager → Portfolio Manager       │           │
+│  └─────────────────────────────────────────┘           │
+│                                                         │
+│  ⚠️  EDUCATIONAL ONLY - Not for real trading          │
+└─────────────────────────────────────────────────────────┘
+📦 330KB | 🍴 Poetry, Trading simulation, Multi-agent
+```
+
+### 🔧 Other Projects
+
+- **[LR](https://github.com/TheG1024/LR)** - 504KB | Learning & experiments
+- **[PlateSync](https://github.com/TheG1024/PlateSync)** - 30KB | License plate synchronization
+- **[restaurant_inventory](https://github.com/TheG1024/restaurant_inventory)** - 141KB | Inventory management
+- **[osiris](https://github.com/TheG1024/osiris)** - 0KB | In progress
+- **[shaAGI](https://github.com/TheG1024/shaAGI)** - 0KB | In progress
 
 ---
 
@@ -58,11 +97,11 @@ class Ntokozo:
 
 ```
 BACKEND          FRONTEND         DEVOPS           AI/ML
-├── Java         ├── React        ├── Docker       ├── LLM Integration
-├── Kotlin       ├── TypeScript   ├── Linux        ├── MCP Servers
-├── Spring Boot  ├── Leaflet      ├── Render       ├── Automation
-├── Node.js      ├── WebSocket    ├── GitHub CI    └── Agent Workflows
-└── Redis        └── Tailwind     └── PostgreSQL
+├── Java         ├── React        ├── Docker       ├── Multi-Agent Systems
+├── Kotlin       ├── TypeScript   ├── Linux        ├── LLM Integration
+├── Spring Boot  ├── WebSocket    ├── Redis        ├── Trading Algorithms
+├── Python       └── Leaflet      ├── Render       └── Problem-Solving AI
+└── PostgreSQL   └── Tailwind     └── GitHub CI
 ```
 
 ---
@@ -70,9 +109,9 @@ BACKEND          FRONTEND         DEVOPS           AI/ML
 ## 🎯 FOCUS AREAS
 
 ```
-[████████████░░] AI Automation      - Multi-agent systems
-[███████░░░░░░░] Cybersecurity      - Red teaming & defense
-[██████░░░░░░░░] System Design      - Distributed architecture
+[████████████░░] AI Automation      - Multi-agent orchestration
+[███████░░░░░░░] Cybersecurity      - Red teaming & defense  
+[██████░░░░░░░░] System Design      - Real-time architectures
 [█████░░░░░░░░░] Trading Tech       - Algorithmic systems
 ```
 
@@ -81,21 +120,22 @@ BACKEND          FRONTEND         DEVOPS           AI/ML
 ## 💀 CODE WEAPONS
 
 ```bash
-# Current workflow
-$ git commit -m "feat: another automation deployed 🚀"
-$ hermes run --autonomous
-$ curl -X POST api/nomad/alerts -d '{"type":"police","lat":-26.2}'
+# Daily workflow
+$ git add . && git commit -m "feat: ships today 🚀"
+$ docker-compose up -d
+$ curl -X POST localhost:8080/api/gps/stream
+$ hermes run --agent coordinator
 ```
 
 ---
 
 ## 🔮 ACTIVE MISSIONS
 
-- 🤖 Building autonomous AI agent workflows
-- 🔐 Hunting bugs & learning offensive security
-- 🛰️ Scaling Nomad to more users
-- 📊 Integrating trading signal systems
-- 🧠 Exploring MCP servers for tool chaining
+- 🛰️ **Nomad** - Scaling real-time GPS platform
+- 🤖 **IbuthoAGI** - Building systematic AI problem-solver
+- 📈 **AI Hedge Fund** - Exploring AI trading strategies
+- 🔐 Learning offensive security
+- 🧠 Integrating MCP servers for tool chaining
 
 ---
 
@@ -113,7 +153,7 @@ $ curl -X POST api/nomad/alerts -d '{"type":"police","lat":-26.2}'
 ╔═══════════════════════════════════════════════════════════╗
 ║  "Talk is cheap. Show me the code." - Linus Torvalds     ║
 ║                                                           ║
-║   I build things that work. Fast iteration. Real tests.  ║
+║   Building: Real-time systems • Multi-agent AI • Cybersec║
 ║   Headless browsers lie. Real browsers don't. 🎭         ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
@@ -133,6 +173,6 @@ $ curl -X POST api/nomad/alerts -d '{"type":"police","lat":-26.2}'
  built with ☕ • code • determination
 ```
 
-**[📧 Connect](https://github.com/TheG1024)** | **[🌍 Nomad](https://github.com/TheG1024/nomad-gps-tracker)**
+**[📧 GitHub](https://github.com/TheG1024)** | **[🛰️ Nomad](https://github.com/TheG1024/Nomad)** | **[🤖 IbuthoAGI](https://github.com/TheG1024/IbuthoAGI)** | **[📈 AI HF](https://github.com/TheG1024/ai-hedge-fund)**
 
 </div>
