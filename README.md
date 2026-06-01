@@ -1,106 +1,138 @@
-# 👋 Hey, I'm Ntokozo
+```
+  _   _  _____  _____  __  __  ____    ____  _____  _____  __  __  _____  
+ | | | || ____||_   _||  \/  ||  _ \  / ___|| ____||_   _||  \/  || ____| 
+ | | | ||  _|    | |  | |\/| || | | || |    |  _|    | |  | |\/| ||  _|   
+ | |_| || |___   | |  | |  | || |_| || |___ | |___   | |  | |  | || |___  
+  \___/ |_____|  |_|  |_|  |_||____/  \____||_____|  |_|  |_|  |_||_____| 
+                                                                          
+  ██████╗ ██╗   ██╗██████╗ ███████╗██████╗ 
+  ██╔══██╗╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗
+  ██████╔╝ ╚████╔╝ ██████╔╝█████╗  ██████╔╝
+  ██╔══██╗  ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗
+  ██████╔╝   ██║   ██████╔╝███████╗██║  ██║
+  ╚═════╝    ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝
+```
 
-**Operator & Builder** | **AI Automation Enthusiast** | **Cybersecurity Learner**
+## 🚀 OPERATOR // BUILDER // HACKER
 
----
-
-## 🚀 What I'm Building
-
-### [Nomad GPS Tracker](https://github.com/TheG1024/nomad-gps-tracker)
-Real-time vehicle tracking system with community-driven alerts
-- **Stack**: Spring Boot, React, WebSocket, Redis, PostgreSQL
-- **Features**: Live GPS tracking, user-reported police alerts, driver avatars
-- **Deployed**: [Render.com](https://nomad-gps-tracker.onrender.com)
-- **Demo**: `curl -v https://nomad-gps-tracker.onrender.com/api/health`
-
----
-
-## 🛠️ Tech Stack
-
-```yaml
-Languages:
-  - Java/Kotlin
-  - TypeScript/JavaScript
-  - Python
-  - SQL
-
-Backend:
-  - Spring Boot
-  - Node.js
-  - Redis
-  - PostgreSQL
-
-Frontend:
-  - React
-  - Leaflet Maps
-  - WebSocket
-  - TailwindCSS
-
-DevOps:
-  - Docker
-  - Render.com
-  - GitHub Actions
-  - Linux
-
-AI/ML:
-  - LLM Integration
-  - Automation Workflows
-  - MCP Servers
+```python
+class Ntokozo:
+    def __init__(self):
+        self.location = "Africa/Johannesburg 🇿🇦"
+        self.mission = ["AI Automation", "Cybersecurity", "Trading Tech"]
+        self.stack = ["Spring Boot", "React", "WebSocket", "Redis"]
+        self.philosophy = "Working code > Explanations"
+    
+    def build(self):
+        return "Nomad GPS Tracker 🛰️"
+    
+    def hack(self):
+        return "Learning security through practice 🔐"
 ```
 
 ---
 
-## 🔬 Focus Areas
+## 🛠️ CURRENT OPERATIONS
 
-| Area | What I'm Exploring |
-|------|-------------------|
-| 🤖 **AI Automation** | Multi-agent systems, autonomous workflows, tool integration |
-| 🔐 **Cybersecurity** | Red teaming, vulnerability assessment, defensive systems |
-| 🏗️ **System Architecture** | Distributed systems, real-time apps, cloud-native design |
-| 📈 **Trading Tech** | Market data systems, algorithmic trading infrastructure |
-
----
-
-## 💡 Philosophy
-
-> **"Working code proofs over explanations"**
-
-I believe in:
-- ✅ Fast iteration and learning by building
-- ✅ Automation-first approach
-- ✅ Documentation that compounds knowledge
-- ✅ Real testing with real browsers (headless often fails 😅)
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheG1024&show_icons=true&theme=radical&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheG1024&layout=compact&theme=radical&hide_border=true)
+```
+┌─────────────────────────────────────────────────────────────┐
+│  NOMAD GPS TRACKER                          [DEPLOYED] ✅   │
+├─────────────────────────────────────────────────────────────┤
+│  Real-time vehicle tracking + community alerts              │
+│                                                             │
+│  [Spring Boot] → [WebSocket] → [React + Leaflet]           │
+│       ↓                    ↓                                │
+│  [PostgreSQL]        [Redis Pub/Sub]                       │
+│                                                             │
+│  → Live GPS tracking with driver avatars                   │
+│  → User-reported police alerts with upvotes                │
+│  → Community-powered road safety                           │
+│                                                             │
+│  Demo: curl https://nomad-gps-tracker.onrender.com/api/health
+└─────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 📫 Connect
+## 🔥 TECH ARSENAL
 
-- **GitHub**: [@TheG1024](https://github.com/TheG1024)
-- **Timezone**: Africa/Johannesburg (GMT+2)
-- **Environment**: Linux 🐧
+```
+BACKEND          FRONTEND         DEVOPS           AI/ML
+├── Java         ├── React        ├── Docker       ├── LLM Integration
+├── Kotlin       ├── TypeScript   ├── Linux        ├── MCP Servers
+├── Spring Boot  ├── Leaflet      ├── Render       ├── Automation
+├── Node.js      ├── WebSocket    ├── GitHub CI    └── Agent Workflows
+└── Redis        └── Tailwind     └── PostgreSQL
+```
 
 ---
 
-## ⚡ Currently
+## 🎯 FOCUS AREAS
 
-- Building AI-powered automation workflows
-- Learning cybersecurity through hands-on practice
-- Improving Nomad with new features
-- Exploring MCP servers and tool integration
+```
+[████████████░░] AI Automation      - Multi-agent systems
+[███████░░░░░░░] Cybersecurity      - Red teaming & defense
+[██████░░░░░░░░] System Design      - Distributed architecture
+[█████░░░░░░░░░] Trading Tech       - Algorithmic systems
+```
+
+---
+
+## 💀 CODE WEAPONS
+
+```bash
+# Current workflow
+$ git commit -m "feat: another automation deployed 🚀"
+$ hermes run --autonomous
+$ curl -X POST api/nomad/alerts -d '{"type":"police","lat":-26.2}'
+```
+
+---
+
+## 🔮 ACTIVE MISSIONS
+
+- 🤖 Building autonomous AI agent workflows
+- 🔐 Hunting bugs & learning offensive security
+- 🛰️ Scaling Nomad to more users
+- 📊 Integrating trading signal systems
+- 🧠 Exploring MCP servers for tool chaining
+
+---
+
+## 📡 TRANSMISSION STATS
+
+![Ntokozo's GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheG1024&show_icons=true&theme=tokyonight&hide_border=true&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheG1024&layout=compact&theme=tokyonight&hide_border=true&title_color=58a6ff&text_color=c9d1d9)
+
+---
+
+## ⚡ SIGNAL BOOST
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║  "Talk is cheap. Show me the code." - Linus Torvalds     ║
+║                                                           ║
+║   I build things that work. Fast iteration. Real tests.  ║
+║   Headless browsers lie. Real browsers don't. 🎭         ║
+╚═══════════════════════════════════════════════════════════╝
+```
 
 ---
 
 <div align="center">
 
-**Thanks for stopping by!** 🙏
+```
+ ██████╗  ██████╗ ██████╗ ████████╗
+ ██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝
+ ██████╔╝██║   ██║██████╔╝   ██║   
+ ██╔══██╗██║   ██║██╔══██╗   ██║   
+ ██████╔╝╚██████╔╝██║  ██║   ██║   
+ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
+                                   
+ built with ☕ • code • determination
+```
 
-*Built with ☕ and determination*
+**[📧 Connect](https://github.com/TheG1024)** | **[🌍 Nomad](https://github.com/TheG1024/nomad-gps-tracker)**
 
 </div>
