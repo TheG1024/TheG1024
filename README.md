@@ -28,6 +28,18 @@ class Ntokozo:
 
 ---
 
+## 👁️ VISITOR COUNTER
+
+<div align="center">
+
+![Visitor Count](https://api.visitorbadge.io/api/visitors?path=TheG1024%2FTheG1024&label=VISITORS&labelColor=%23000000&countColor=%2300ff00&style=flat-square&labelStyle=none)
+
+![Profile Views](https://komarev.com/ghpvc/?username=TheG1024&label=Profile+Views&color=0e75b6&style=flat-square)
+
+</div>
+
+---
+
 ## 🛠️ FEATURED PROJECTS
 
 ### 🛰️ [Nomad](https://github.com/TheG1024/Nomad) - Real-Time GPS Tracking
